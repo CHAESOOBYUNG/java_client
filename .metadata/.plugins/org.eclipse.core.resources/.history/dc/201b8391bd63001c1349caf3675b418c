@@ -1,0 +1,27 @@
+package basic_client;
+
+import java.net.Socket;
+
+public class MainClient {
+	
+	public static void main(String[] args) {
+
+		try {
+			//본인의 아이피 = 윈도우 + r -> cmd ->ipconfig
+			
+			Socket socket = new Socket("172.30.1.30", 8383); //접속할 IP, 포트번호
+			
+			//소켓 클래스의 inputStream을 사용해서 서버로무터 데이터를 받음
+			
+			
+			
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+		
+	}
+}
